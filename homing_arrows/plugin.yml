@@ -1,0 +1,29 @@
+main: com.rubdub.Main
+name: HomingArrows
+version: 1.0
+author: Akyumuma
+description: description
+commands:
+ home:
+  description: Controls Homing Arrow Commands
+  home:
+   description: Toggles homing
+   usage: /home home
+  fire:
+   description: Toggles fire arrows
+   usage: /home fire
+  explode:
+   description: Toggles explosions on impact
+   usage: /home explode
+ 
+  allow:
+    description: Allows a player to use Homing Arrows
+    usage: /home allow <player>
+    
+  disallow:
+    description: Disallows a player from using Homing Arrows
+    usage: /home disallow <player>
+    
+  gravity:
+    description: Toggles arrow gravity
+    usage: /home gravity
